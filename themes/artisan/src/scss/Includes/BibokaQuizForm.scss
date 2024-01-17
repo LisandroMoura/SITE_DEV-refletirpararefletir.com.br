@@ -1,0 +1,151 @@
+div#regua {
+    height: 60px;
+}
+
+.biboka_quiz {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 0 50px;
+}
+
+.biboka_quiz.avaliacao {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.biboka_quiz_li {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 5px 0 0;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: #585858;
+}
+
+.biboka_quiz_li:hover {
+    background: #f9f9f9;
+}
+
+.biboka_quiz.avaliacao>.biboka_quiz_li {
+    margin: 0;
+    padding: 5px 0;
+}
+
+li.biboka_quiz_li span {
+    margin-left: 5px;
+    color: #cba1b9;
+    cursor: pointer;
+}
+
+.biboka_quiz_li label {
+    cursor: pointer;
+}
+
+.biboka_quiz_li div.col1 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 570px;
+    height: 60px;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+}
+
+.biboka_quiz_li div.col2 {
+    display: table-cell;
+    width: 200px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+ul.biboka_quiz input[type='radio']:not(:disabled):not(:active):hover {
+    background: url($urlTemplate+"/images/elementos/elementos.webp") -945px -500px no-repeat;
+}
+
+ul.biboka_quiz input[type='radio']:not(:disabled):not(:active):hover {
+    background: url($urlTemplate+"/images/elementos/elementos.webp") -945px -500px no-repeat;
+}
+
+ul.biboka_quiz input[type='radio']:disabled {
+    opacity: .75;
+}
+
+ul.biboka_quiz input[type='radio']:not(:disabled):active {
+    background: url($urlTemplate+"/images/elementos/elementos.webp") -945px -530px no-repeat;
+}
+
+ul.biboka_quiz input[type='radio']:checked::before {
+    -webkit-appearance: none;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 3px;
+    -webkit-transition: border 500ms;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    content: '';
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url($urlTemplate+"/images/elementos/elementos.webp") -945px -530px no-repeat;
+}
+
+ul.biboka_quiz input[type='radio']:active:checked::before {
+    background: #cba1b9;
+    background: url($urlTemplate+"/images/elementos/elementos.webp") -945px -530px no-repeat;
+}
+
+html[dir='rtl'] input[type='radio']:checked::before {
+    right: 0;
+}
+
+ul.biboka_quiz input[type='radio'] {
+    -webkit-appearance: none;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 3px;
+    -webkit-transition: border 500ms;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    height: 22px;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    width: 22px;
+    background: url($urlTemplate+"/images/elementos/elementos.webp") -945px -560px no-repeat;
+}
+
+input#terminar,
+input#terminar_avaliacao {
+    width: 100%;
+}
+
+input#terminar_avaliacao {
+    margin: 60px 0;
+}
+
+.biboka_quiz_select.selected {
+    color: #078a24
+}
+
+.bt-fazer-o-teste {
+    color: #fff;
+    background: #cba1b9;
+    border: 0;
+    width: initial;
+    border-radius: 0;
+    padding: .7em 25px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+ul.biboka_quiz>h2 {
+    margin-bottom: 10px;
+}

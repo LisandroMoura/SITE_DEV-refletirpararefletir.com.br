@@ -1,0 +1,4 @@
+<?php 
+$ENV_AMBIENTE="localhost"; 
+$ENV_VER="2023_10may_1650"; 
+?>

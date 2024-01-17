@@ -1,0 +1,169 @@
+.area-do-menu {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    transform: translate(-100%, 0px);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.area-do-menu.ativado {
+    transform: translate(0px, 0px);
+}
+
+.corpo-do-menu {
+    position: relative;
+    background: #fff;
+    display: block;
+    width: 265px;
+    height: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    z-index: 9999;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.menu-mobile-fechar {
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 8888;
+}
+
+.area-do-menu>.corpo-do-menu>.imagem-do-menu {
+    display: inline-block;
+    width: 360px;
+    max-width: 100%;
+    float: left;
+    margin: 20px 60px 0 0;
+}
+
+.area-do-menu>.corpo-do-menu>.imagem-do-menu {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    background: #daa2bb;
+}
+
+.area-do-menu>.corpo-do-menu>.imagem-do-menu>a>img {
+    display: block;
+    margin: 0 auto;
+}
+
+.fixada {
+    position: fixed;
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 36px;
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu>li.title {
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu>li.title>a {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-left: 30px;
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu>li.title .sinal_de_mais {
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    z-index: 9998;
+    border-radius: 100%;
+    top: 2px;
+    right: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+}
+
+.sinal_de_mais.tx-reflexao {
+    background: #c5adc5;
+}
+
+.sinal_de_mais.tx-diversao {
+    background: #eac5a6;
+}
+
+.sinal_de_mais.tx-sentimentos {
+    background: #e9a6b3;
+}
+
+.sinal_de_mais.tx-religiao {
+    background: #a3d3e0;
+}
+
+.sinal_de_mais>span {
+    display: block;
+    background: #fff;
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    left: 13px;
+    top: 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.sinal_de_mais.ativado>span.sinal_b {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.sinal_de_mais>span.sinal_a {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu>li.title>ul.sub-menu>li {
+    display: block;
+    width: 100%;
+    padding-left: 25px;
+    border-bottom: 1px solid #f5f5f6;
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu>li.title>ul.sub-menu>li>a {
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.area-do-menu>.corpo-do-menu>ul.menu>li.title>ul.sub-menu>li>a:active,
+.area-do-menu>.corpo-do-menu>ul.menu>li.title>ul.sub-menu>li>a:focus {
+    background: #f2f2f3;
+    color: #000;
+}
+

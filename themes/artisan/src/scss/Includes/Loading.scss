@@ -1,0 +1,74 @@
+a:has(> img.aguardando) {
+    // position: relative;
+    background: linear-gradient(90deg, #f0f0f0, #e6e6e5, #ffffff);
+    background-size: 600% 600%;
+    -webkit-animation: loading 5s ease infinite;
+    -moz-animation: loading 5s ease infinite;
+    animation: loading 5s ease infinite;
+}
+
+img.aguardando {
+    opacity: 0;
+    color: transparent;
+}
+
+span.load {
+    display: block;
+    width: 0.1px;
+    position: relative;
+    &::after{
+        content: "";
+        opacity: 0;
+        color: #f78da7;
+        position: absolute;
+        top: 100px;
+        margin-top: -14.5px;
+        left: 187px;
+        margin-left: -19px;
+        font-size: 38px;
+        -webkit-animation: dots 2s ease infinite;
+        -moz-animation: dots 2s ease infinite;
+        animation: dots 2s ease infinite;
+    }
+}
+a:has(> img.aguardando) > span.load::after {
+    opacity: 1;
+}
+
+
+
+@keyframes dots {
+    0% {
+        content: ' ';
+    }
+
+    25% {
+        content: '.';
+    }
+
+    50% {
+        content: '..';
+    }
+
+    75% {
+        content: '...';
+    }
+
+    100% {
+        content: '';
+    }
+}
+
+@keyframes loading {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}

@@ -1,0 +1,44 @@
+.card-msg {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin-bottom: 24px;
+    background: #ecffd9;
+    position: relative;
+    border-radius: 20px 0px 20px 20px;
+    &.error{
+        background: #fff9c0;
+    }
+    header {
+        font-weight: 900;
+        color: #35a91b;
+        &.error{
+            color: red;
+        }
+    }
+    ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        li {
+            padding: 5px 0 5px;
+        }
+    }
+
+    &::after{
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: -22px;
+        top: 0px;
+        border-top: 0px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 50px solid #fff9c0;
+    }
+}
+
+.input-with-errors{
+    border-left: solid 5px red!important;
+}

@@ -1,0 +1,79 @@
+.anuncio-topo {
+    margin-top: 40px;
+}
+
+.anuncio-pequeno {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.demo {
+    background: #fff9c0 url($urlTemplate+"/images/modelo_anuncio.png");
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0);
+    max-width: 100%;
+}
+
+.anuncio-barra {
+    display: block;
+    height: 90px;
+    width: 728px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.anuncio-quadrado {
+    display: block;
+    width: 340px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.anuncio-box {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+// .label-anuncio {
+//     display: block;
+//     float: left;
+//     text-align: left;
+//     color: #444;
+//     padding: 0 5px 0 0;
+//     font-weight: 100;
+//     font-size: .88em;
+// }
+
+// .label-anuncio:before {
+//     content: '\f348';
+//     display: block;
+//     -webkit-font-smoothing: antialiased;
+//     font: 400 16px/1 dashicons;
+//     font-family: dashicons;
+//     float: left;
+//     margin-right: 0;
+//     margin-top: 0;
+//     color: #daa2bb;
+//     height: 24px;
+//     padding: 4px;
+// }
+
+.anuncio-left {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.anuncio-correspondente {
+    margin: 0 0 60px 0;
+    display: block;
+    float: left;
+    width: 100%;
+}

@@ -1,0 +1,137 @@
+.texto-bandeira {
+    display: block;
+    float: left;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.texto-bandeira.tag {
+    text-transform: none;
+    color: #000;
+    font-size: 23px;
+}
+
+.bandeirinha-area {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 23px;
+    border: solid 1px #c5adc5;
+    border-right: none;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bandeirinha-area>.bandeira-a {
+    border-top: solid 1px #c5adc5;
+    transform: rotate(58deg);
+    width: 23px;
+    height: 2px;
+    position: absolute;
+    right: -10px;
+    top: 20px;
+}
+
+.bandeirinha-area>.bandeira-b {
+    border-top: solid 1px #c5adc5;
+    transform: rotate(-58deg);
+    width: 23px;
+    height: 1px;
+    position: absolute;
+    right: -10px;
+    top: 1px;
+}
+
+.bandeirinha-area.tx-diversao {
+    border: solid 1px #eac5a6;
+    border-right: none;
+}
+
+.bandeirinha-area.tx-diversao>.bandeira-a,
+.bandeirinha-area.tx-diversao>.bandeira-b {
+    border-top: solid 1px #eac5a6;
+}
+
+.bandeirinha-area.tx-reflexao {
+    border: solid 1px #c5adc5;
+    border-right: none;
+}
+
+.bandeirinha-area.tx-reflexao>.bandeira-a,
+.bandeirinha-area.tx-reflexao>.bandeira-b {
+    border-top: solid 1px #c5adc5;
+}
+
+.bandeirinha-area.tx-roxo {
+    border: solid 1px #bcabc2;
+    border-right: none;
+}
+
+.bandeirinha-area.tx-roxo>.bandeira-a,
+.bandeirinha-area.tx-roxo>.bandeira-b {
+    border-top: solid 1px #bcabc2;
+}
+
+.bandeirinha-area.tx-sentimentos {
+    border: solid 1px #e9a6b3;
+    border-right: none;
+}
+
+.bandeirinha-area.tx-sentimentos>.bandeira-a,
+.bandeirinha-area.tx-sentimentos>.bandeira-b {
+    border-top: solid 1px #e9a6b3;
+}
+
+.bandeirinha-area.tx-religiao {
+    border: solid 1px #a3d3e0;
+    border-right: none;
+}
+
+.bandeirinha-area.tx-religiao>.bandeira-a,
+.bandeirinha-area.tx-religiao>.bandeira-b {
+    border-top: solid 1px #a3d3e0;
+}
+
+ul.entry-meta.linha_com_dois {
+    width: 100%;
+    float: left;
+}
+
+ul.entry-meta.linha_com_dois>li {
+    display: block;
+    float: left;
+}
+
+ul.entry-meta.linha_com_dois>li.single-data {
+    margin-right: 15px;
+}
+
+ul.entry-meta.linha_com_dois>li>span {
+    display: block;
+    float: left;
+    line-height: 35px;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+ul.entry-meta.linha_com_dois>li>span>a {
+    color: #fff;
+    font-size: 18px;
+}
+
+ul.entry-meta.linha_com_dois>li>span.icone-data-publicao {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    background: url($urlTemplate+"/images/elementos/elementos2019.webp") -110px -112px no-repeat;
+}
+
+ul.entry-meta.linha_com_dois>li>span.icone-autor-publicacao {
+    width: 27px;
+    height: 35px;
+    padding: 0;
+    background: url($urlTemplate+"/images/elementos/elementos2019.webp") -202px -109px no-repeat;
+}

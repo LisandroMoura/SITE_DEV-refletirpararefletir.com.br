@@ -1,0 +1,14 @@
+# https://www.opentechguides.com/how-to/article/apache/115/htaccess-file-dir-security.html
+# https://stackoverflow.com/questions/5046100/prevent-access-to-files-in-a-certain-folder
+IndexIgnore *
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.(ini|psd|log|js|scss)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+#block all files
+order deny,allow
+deny from all

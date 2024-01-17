@@ -1,0 +1,32 @@
+
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.4em;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    border: 1px solid #ededed;
+    padding: 6px;
+}
+
+td.head {
+    background: #fbfbfb;
+    font-weight: 600;
+    text-align: center;
+}
+
+td.linha.valor {
+    text-align: center;
+    vertical-align: middle;
+}
+

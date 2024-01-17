@@ -1,0 +1,331 @@
+/**
+* 6.0 Classes padrões
+* ---------------------------------------------------------------------------*/
+#page {
+    width: 100%;
+}
+
+// .site-header.maxi {
+//     min-height: 470px;
+// }
+
+.pai {
+    position: relative;
+}
+
+.page-size {
+    max-width: 1160px;
+}
+
+.hfull {
+    height: 100%;
+}
+
+.site-header {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding-top: 0;
+}
+
+.bgtopo {
+    background-size: cover;
+}
+
+.animes {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+/*-->6.1 Metricas (alturas, larguras, margens*/
+.w33 {
+    width: 33.333%;
+}
+
+.w100,
+.full,
+.completo {
+    width: 100%;
+}
+
+// .mt-50 {
+//     margin-top: 50px;
+// }
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+// .span3m {
+//     margin-left: 2.564102564102564%;
+//     width: 31.623931623931625%;
+//     float: left;
+// }
+
+// .span3m:nth-child(1) {
+//     margin-left:
+//         0;
+//     clear: both;
+// }
+
+// .span3m>div.w100 {
+//     border: solid 1px #eae6e6;
+// }
+
+// li.span3m.item-3.casse-final:after {
+//     display: none;
+// }
+
+// li.span3m.item-1 {
+//     margin-left: 0;
+//     clear: both;
+// }
+
+// .span2m {
+//     width: 49%;
+//     margin-left: 2%;
+//     margin-bottom: 2%;
+//     float: left;
+// }
+
+// .span2m:nth-child(1),
+// .span2m:nth-child(3) {
+//     margin-left: 0;
+//     clear: both;
+// }
+
+// .font10 {
+//     font-size: 0.55em;
+// }
+
+// .font14 {
+//     font-size: 1em;
+// }
+
+.font18 {
+    font-size: 1.30em;
+}
+
+// .font24 {
+//     font-size: 1.70em;
+// }
+
+/*-->6.2 atribuições*/
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// .container-fluid {
+//     padding-right: 20px;
+//     padding-left:
+//         20px;
+// }
+
+// .row-fluid {
+//     width: 100%;
+//     display: block;
+//     min-height: 30px;
+//     box-sizing: border-box;
+// }
+
+.caixa {
+    display: block;
+    width:
+        100%;
+    float: left;
+}
+
+// .inlines {
+//     display: inline-block;
+// }
+
+.block {
+    display: block;
+}
+
+// .tabela {
+//     display: table;
+// }
+
+// .celula {
+//     display:
+//         table-cell;
+// }
+
+// .vcenter {
+//     vertical-align: middle;
+// }
+
+// .hide {
+//     display: none;
+//     opacity: 0;
+//     height: 0
+// }
+
+// .float-ini {
+//     float:
+//         inherit;
+// }
+
+.float-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// .text-left {
+//     text-align:
+//         left;
+// }
+
+.text-right {
+    text-align: right;
+}
+
+// .text-up,
+// .up {
+//     text-transform: uppercase;
+// }
+
+.float-right {
+    float: right;
+}
+
+.center-margem {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pai {
+    position: relative;
+}
+
+.filhos {
+    position: absolute;
+}
+
+// .fixo {
+//     position: fixed;
+// }
+
+.row {
+    display: block;
+    flex-wrap: wrap;
+}
+
+
+.col-1 {
+    display: block;
+    float: left;
+    flex: 0 0 66%;
+    max-width: 66%;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+
+// .col-2 {
+//     display: block;
+//     float: left;
+//     position: relative;
+//     flex: 0 0 29%;
+//     max-width: 29%;
+// }
+
+
+ul.publicacoes {
+    display: block;
+    width: 33%;
+    float: left;
+}
+
+ul.publicacoes li {
+    display: block;
+    float: left;
+    margin: 15px 8px;
+    background: #fff;
+    border-bottom-left-radius:
+        10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 5px 10px rgba(81, 81, 81, .3)
+}
+
+.area_da_img{
+    display: flex;
+    justify-content: center;
+}
+
+.area_da_img>a>img.simg {
+    display: inline-block;
+    max-width: initial;
+}
+
+
+.texto {
+    display: block;
+    padding: 10px 45px 30px 45px;
+}
+
+.publicacao-categoria {
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+    text-transform:
+        uppercase;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+ul.publicacoes>li>div.texto>p.font18 {
+    margin: 0;
+    line-height: 24px;
+}
+
+.texto>p>a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h2.text-center {
+    margin: 50px 0 30px 0;
+    font-size: 36px;
+    color: #000;
+    font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+    ul.publicacoes {
+        display: flex;
+        flex-direction: column;
+    }
+    ul.publicacoes li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

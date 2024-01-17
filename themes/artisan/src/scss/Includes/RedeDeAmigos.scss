@@ -1,0 +1,76 @@
+div.rede-de-amigos {
+    display: block;
+    background: no-repeat top;
+}
+
+div.rede-de-amigos>.page-size>ul>li {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 70px;
+}
+
+div.rede-de-amigos>.page-size>ul>li>div.titulo {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+div.rede-de-amigos>.page-size>ul>li>div.titulo>.preto {
+    color: #000;
+}
+
+div.rede-de-amigos>.page-size>ul>li>div.titulo>.rosa {
+    color: #c77398
+}
+
+div.rede-de-amigos>.page-size>ul>li>.area-face {
+    display: block;
+    width: 340px;
+    margin: 0 auto 160px auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.icone-coracao {
+    display: block;
+    width: 40px;
+    height: 31px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.area-redes>ul {
+    display: block;
+    width: 178px;
+    margin: 0 auto;
+}
+
+.area-redes>ul>li>a {
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 100%;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    text-indent: -9000px;
+    margin: 0;
+}
+
+.area-redes>ul>li.face>a {
+    background: #fff url($urlTemplate+"/images/elementos/elementos2019.webp") -319px -3px no-repeat;
+}
+
+.area-redes>ul>li.pinterest>a {
+    background: #fff url($urlTemplate+"/images/elementos/elementos2019.webp") -372px -3px no-repeat;
+}
+
+.area-redes>ul>li.instagram>a {
+    background: #fff url($urlTemplate+"/images/elementos/elementos2019.webp") -428px -3px no-repeat;
+}
+
+.area-redes>ul>li.mc>a {
+    margin: 0px 20px;
+}

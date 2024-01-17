@@ -1,0 +1,95 @@
+.tags-da-pagina {
+    margin-bottom: 60px;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.tags-da-pagina.archive {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+
+
+.tags-da-pagina>div.tags-links>span {
+    display: block;
+    float: left;
+    font-size: 23px;
+}
+
+.tags-da-pagina>div.tags-links>a {
+    display: block;
+    float: left;
+    font-size: 23px;
+    font-weight: 400;
+    color: #daa2bb;
+    line-height: 24px;
+    margin-left: 8px;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption.aligncenter,
+.content-area img.aligncenter,
+.content-area img.size-full.aligncenter {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+.wp-caption.alignright,
+.content-area img.alignright {
+    margin: 0 0 0 auto;
+    display: block;
+}
+
+.single-page .content-area p.wp-caption-text {
+    margin: 0;
+    font-size: 13px;
+    font-style: italic;
+    padding-left: 14px;
+    position: relative;
+}
+
+.single-page .content-area p.wp-caption-text:before {
+    display: block;
+    position: absolute;
+    content: " ";
+    width: 4px;
+    height: 28px;
+    left: 0px;
+    background: #bcabc2;
+}
+
+#single_rodape2,
+#single_rodape,
+.single_rodape2 {
+    display: none;
+}
+
+
+ul.arvore-de-tags>li>a {
+    color: #000;
+}
+
+ul.arvore-de-tags {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    float: left;
+}
+
+ul.arvore-de-tags>li {
+    display: block;
+    float: left;
+    padding: 0 5px;
+    background: rgba(242, 242, 243, 0.6);
+    margin-right: 15px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}

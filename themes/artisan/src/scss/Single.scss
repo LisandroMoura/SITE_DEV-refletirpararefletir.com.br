@@ -1,0 +1,37 @@
+/**--------------------------------------------------------------------------------------------------------------
+ * Nome: Single.scss
+ * Autor: liZi by_pandora.io
+ * Objetivo: Folha de estilos padrão, responsável pela single de posts
+ * Doc:
+ * -------------------------------------------------------
+ * UPDATES:
+ * -------------------------------------------------------
+ *  ● Projeto2023Jun02 - Refatorar a compilação de CSS
+ *     >> 27-06-23  - Inicio dos trabalhos
+ *--------------------------------------------------------------------------------------------------------------*/
+
+@import './Includes/Variaveis.scss';
+@import './Includes/Reset.scss';
+@import './Includes/Placeholder.scss';  
+@import './Includes/Dom.scss';
+@import './Includes/Menu.scss';
+@import './Includes/Header.scss';
+@import './Includes/Standart.scss';
+@import './Includes/Forms.scss';
+@import './Includes/Loading.scss';
+
+@import './Includes/MensagensDoBem.scss';
+@import './Includes/NoticiasDoBem.scss';
+@import './Includes/Capa.scss';
+@import './Includes/Bandeiras.scss';
+@import './Includes/SingleContent.scss';
+@import './Includes/ResultadoAvaliacao.scss';
+@import './Includes/Anuncios.scss';
+@import './Includes/Comentarios.scss';
+@import './Includes/Tags.scss';
+@import './Includes/Paginacao.scss';
+@import './Includes/Institucionais.scss';
+
+@import './Includes/RedeDeAmigos.scss'; //faz parte do footer
+@import './Includes/Footer.scss';
+@import './Includes/Responsivo.scss';

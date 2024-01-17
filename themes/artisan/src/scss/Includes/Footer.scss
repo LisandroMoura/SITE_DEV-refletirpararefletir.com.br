@@ -1,0 +1,36 @@
+.links-rodape-esquerda {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    clear: both;
+    display: block;
+    float: left;
+    width: 60%;
+    padding: 0 0 0 30px;
+}
+
+ul.menu-footer>li {
+    display: inline-block;
+}
+
+.rodape-direita {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding: 0 30px 0 0;
+}
+
+.links-rodape-esquerda>ul.menu-footer>li>a {
+    margin-right: 5px;
+}
+
+.links-rodape-esquerda>ul.menu-footer>li>a,
+.rodape-direita>.copyr>span {
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@import "Consent.scss"

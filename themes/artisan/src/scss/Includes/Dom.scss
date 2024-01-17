@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    font-size: 62.5%;
+    font-weight: 400;
+}
+
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Novo Layout 2019=>Novos ajustes para celular=>single:: Diminuir ainda mais o tamanho do topo -
+Font-size de 2em para 1.68em LM: 15/05/19*/
+body {
+    line-height: 1.5;
+    margin: 0;
+    font-size: 1.68em;
+    line-height: 1.75em;
+    color: #000;
+    background: #fff;
+}
+
+// body.single {
+//     background: #fff;
+// }
+
+a {
+    color: #daa2bb;
+    text-decoration: none;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+article,
+p {
+    margin: 0 0 24px 0;
+}

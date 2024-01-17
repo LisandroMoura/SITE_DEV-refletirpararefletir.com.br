@@ -1,0 +1,60 @@
+div.frase-do-dia {
+    display: block;
+    background: url($urlTemplate+"/images/bgs/frase_do_dia.jpg") no-repeat center;
+    min-height: 548px;
+    background-size: cover;
+}
+
+div.frase-do-dia>.page-size>h2 {
+    margin: 40px auto 40px auto;
+    background: #e1cfe6;
+    border-radius: 10px;
+    width: 245px;
+    padding: 16px 0;
+}
+
+div.frase-do-dia>.page-size>.icone-frase-do-dia {
+    display: block;
+    width: 78px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: url($urlTemplate+"/images/elementos/elementos2019.webp") -645px -64px no-repeat; //achei
+}
+
+div.frase-do-dia>.page-size>ul {
+    display: table;
+    margin-top: 95px;
+    height: 386px;
+    width: 480px;
+    max-width: 100%;
+    overflow: hidden;
+    float: inherit;
+    margin: 90px auto 0 auto;
+}
+
+div.frase-do-dia>.page-size>ul li.frase-capa {
+    width: 480px;
+    max-width: 100%;
+    height: 386px;
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+div.frase-do-dia>.page-size>ul li.frase-capa>p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.frase-do-dia>.page-size>ul li.frase-capa>div.autor>a,
+div.frase-do-dia>.page-size>ul li.frase-capa>div.autor {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+}

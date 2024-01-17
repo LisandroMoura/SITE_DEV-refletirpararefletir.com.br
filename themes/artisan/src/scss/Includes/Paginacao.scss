@@ -1,0 +1,34 @@
+.paginacao {
+    display: block;
+    float: left;
+    width: 98%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.current,
+a.page-numbers {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #EEEEF0;
+    margin: 0 0 24px 8px;
+    border-radius: 5px;
+    color: #666;
+    -webkit-transition: all .77s ease-in-out;
+    -moz-transition: all .77s ease-in-out;
+    -ms-transition: all .77s ease-in-out;
+    transition: all .77s ease-in-out;
+}
+
+.current,
+a.page-numbers:hover {
+    color: #FFF;
+    background: #c5adc5;
+}
+
+a.next,
+a.prev {
+    width: 95px;
+}

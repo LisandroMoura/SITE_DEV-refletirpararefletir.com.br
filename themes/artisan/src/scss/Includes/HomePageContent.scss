@@ -1,0 +1,43 @@
+
+.items-circulares {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.items-circulares>li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 139px;
+    margin: 20px 26px;
+}
+
+.items-circulares>li>div.area_txt>a>span {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color:
+        #000;
+    margin: 20px 0 0 0;
+}
+
+.items-circulares>li>div.area_txt>a>span.label-mobile {
+    display: none;
+}
+
+.aqui-voce-encontra>.page-size>.items-circulares {
+    max-width: 1152px;
+    display: flex;
+}
+
+.icone-tirinhas {
+    display: block;
+    width: 80px;
+    height: 25px;
+    margin: 60px auto 15px auto;
+    background:
+        url($urlTemplate+"/images/elementos/elementos2019.webp") -496px -12px no-repeat;
+}

@@ -1,0 +1,32 @@
+/**--------------------------------------------------------------------------------------------------------------
+ * Nome: Style.scss
+ * Autor: liZi by_pandora.io
+ * Objetivo: Folha de estilos padrão, responsável pela home entre outros
+ * Doc:
+ * -------------------------------------------------------
+ * UPDATES:
+ * -------------------------------------------------------
+ *  ● Projeto2023Jun02 - Refatorar a compilação de CSS
+ *     >> 18-06-23  - Inicio dos trabalhos
+ *--------------------------------------------------------------------------------------------------------------*/
+
+@import './Includes/Variaveis.scss';
+@import './Includes/Reset.scss';
+@import './Includes/Placeholder.scss';
+@import './Includes/Dom.scss';
+@import './Includes/Menu.scss';
+@import './Includes/Header.scss';
+@import './Includes/Standart.scss';
+@import './Includes/Forms.scss';
+@import './Includes/Loading.scss';
+
+@import './Includes/HomePageContent.scss';
+@import './Includes/NoticiasDoBem.scss';
+@import './Includes/MensagensDoBem.scss';
+@import './Includes/FraseDoDia.scss';
+@import './Includes/CaixinhaDoBem.scss';
+@import './Includes/RedeDeAmigos.scss';
+
+@import './Includes/Footer.scss';
+@import './Includes/Responsivo.scss';
+

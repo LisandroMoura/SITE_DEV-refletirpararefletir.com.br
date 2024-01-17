@@ -1,0 +1,35 @@
+.noticias-do-bem>.page-size.center-margem>h2.text-center {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.estilo-container {
+    padding-bottom: 60px;
+}
+
+.estilo-container.bg-cinza.auto-conhecimento {
+    padding-bottom: 100px;
+}
+
+.bg-cinza {
+    background: #f7f7f7;
+}
+
+.inline-block,
+.area_da_img>a.cimg,
+.box-flex {
+    display: flex;
+    justify-content: center;
+}
+.publicacoes-no-js{
+    display: grid;
+    width: auto;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.publicacoes-no-js li {
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 5px 10px rgba(81,81,81,.3);
+}

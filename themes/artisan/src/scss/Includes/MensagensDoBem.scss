@@ -1,0 +1,51 @@
+
+.mensagens-do-bem {
+    background-size: cover;
+}
+
+.mensagens-do-bem>.page-size>h2.text-center,
+div.ilustracoes>.page-size>h2.text-center {
+    margin: 0 0px 40px 0;
+}
+
+.mensagens-do-bem>.page-size>h2.text-center {
+    margin: 0 0px 10px 0;
+}
+
+.icone-assine-news {
+    display: block;
+    width: 87px;
+    height: 87px;
+    margin: 30px auto -5px auto;
+    background:
+        url($urlTemplate+"/images/elementos/elementos2019.webp") -596px 3px no-repeat;
+}
+
+.mensagens-do-bem>.page-size {
+    max-width: 380px;
+    text-align: center;
+    position: relative;
+}
+
+.mensagens-do-bem>.page-size>article>.content>p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    line-height:
+        30px;
+    margin-bottom: 20px;
+}
+
+
+.mensagens-do-bem>.page-size input[type="email"] {
+    margin: 0px 0 20px 0;
+    font-size: 23px;
+}
+
+.mensagens-do-bem>.page-size input[type="submit"] {
+    margin: 0px 0 30px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+

@@ -1,0 +1,56 @@
+div.caixinha-do-bem {
+    display: block;
+    background: #f7f7f7 url($urlTemplate+"/images/bgs/bg_nuvens.jpg") no-repeat bottom;
+}
+
+div.caixinha-do-bem>.page-size>ul>li {
+    width: 33%;
+    float: left;
+    display: block;
+}
+
+div.caixinha-do-bem>.page-size>ul>li.col1 {
+    text-align: right;
+}
+
+div.caixinha-do-bem>.page-size>ul>li.col1>h1 {
+    margin: 115px 0 10px 0;
+    font-size: 30px;
+    color: #000;
+    font-weight: 900;
+}
+
+div.caixinha-do-bem>.page-size>ul>li.col1>p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+div.caixinha-do-bem>.page-size>ul>li.imagens {
+    position: relative;
+    min-height: 317px;
+}
+
+div.caixinha-do-bem>.page-size>ul>li.imagens>img {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+
+div.caixinha-do-bem>.page-size>ul>li.col3>a.bt {
+    margin: 138px 0 0 40px;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(81, 81, 81, .3);
+}
+
+.bt {
+    display: inline-block;
+    background: #daa2bb;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+}

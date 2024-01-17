@@ -1,0 +1,189 @@
+/**
+* 4.0  Cabecalho do site (3 elementos, menu, logo e lupa)
+* ----------------------------------------------------------------------------*/
+#cabecalho_do_site {
+    width: 100%;
+    float: left;
+    -ms-transition: -ms-transform .25s ease-in-out;
+    -moz-transition: -moz-transform .25s ease-in-out;
+    -webkit-transition: -webkit-transform .25s ease-in-out;
+    transition: -webkit-transform .25s ease-in-out;
+    transform: translate(0px, 0px);
+}
+
+#cabecalho_do_site.ativado {
+    -ms-transition: -ms-transform .25s ease-in-out;
+    -moz-transition: -moz-transform .25s ease-in-out;
+    -webkit-transition: -webkit-transform .25s ease-in-out;
+    transition: -webkit-transform .25s ease-in-out;
+}
+
+#cabecalho_do_site>.container.pai.page-size>.top_ele {
+    height: 107px;
+}
+
+/*
+-->4.1 Botões do menu*/
+.nav-bt {
+    position: relative;
+    width: 125px;
+    height: 90px;
+    display: block;
+    float: left;
+    margin-bottom: 0px;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-top: 18px;
+}
+
+.nav-bt.ativado {
+    background: #fff;
+}
+
+.bt-box {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 23px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.line-bt {
+    position: absolute;
+    left: 0px;
+    display: block;
+    width: 29px;
+    height: 2px;
+    background-color: #ffffff;
+    -webkit-transform-origin: 0 2px;
+    transform-origin: 0 2px;
+    transition: -webkit-transform .15s linear;
+    transition: transform .15s linear;
+}
+
+.line-bt:nth-child(1),
+.line-bt:nth-child(2),
+.line-bt:nth-child(3) {
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+}
+
+.line-bt:nth-child(1) {
+    top: 0px;
+}
+
+.line-bt:nth-child(2) {
+    top: 10px;
+    transition: opacity .15s linear;
+}
+
+.line-bt:nth-child(3) {
+    top: 20px;
+}
+
+.line-bt:nth-child(1).ativado {
+    -ms-transform: translate(0px, -5px) rotate(90deg);
+    -moz-transform: translate(0px, -5px) rotate(90deg);
+    -webkit-transform: translate(0px, -5px) rotate(90deg);
+    transform: translate(0px, -5px) rotate(90deg);
+    width: 28px;
+}
+
+.line-bt:nth-child(2).ativado {
+    -ms-transform: translate(10px, -15px) rotate(90deg);
+    -moz-transform: translate(10px, -15px) rotate(90deg);
+    -webkit-transform: translate(10px, -15px) rotate(90deg);
+    transform: translate(10px, -15px) rotate(90deg);
+    width: 28px;
+}
+
+.line-bt:nth-child(3).ativado {
+    -ms-transform: translate(20px, -25px) rotate(90deg);
+    -moz-transform: translate(20px, -25px) rotate(90deg);
+    -webkit-transform: translate(20px, -25px) rotate(90deg);
+    transform: translate(20px, -25px) rotate(90deg);
+    width: 28px;
+}
+
+.nav-label {
+    color: #fff;
+    padding-left: 8px;
+    display: block;
+    float: left;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.nav-label.ativado {
+    color: #5e5e5e;
+}
+
+
+/*
+-->4.2 Logo do site*/
+.logo {
+    padding-top: 20px;
+}
+
+.oficial_mobile {
+    display: none;
+    margin: 0 auto;
+}
+
+/*
+-->4.3 barra de pesquisa*/
+.barra-de-pesquisa-campo {
+    margin-top: 22px;
+}
+
+.barra-de-pesquisa-campo>form>label {
+    float: right;
+    color: #fff;
+    line-height: 45px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input#s {
+    line-height: 35px;
+    width: 0;
+    height: 45px;
+    background: url($urlTemplate+"/images/elementos/elementos2019.webp") -244px -94px no-repeat;
+    background-repeat: no-repeat;
+    border: 0;
+    -webkit-transition: all .35s ease-in-out;
+    -ms-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-left: 35px;
+}
+
+input#s:focus {
+    background: #fff url($urlTemplate+"/images/elementos/elementos2019.webp") -280px -93px no-repeat;
+    color: #daa2bb;
+    width: 100%;
+    padding-left: 0px;
+    cursor: text;
+    border-top: 1px solid #f2f2f3;
+    border-left: 1.5px solid #f2f2f3;
+    margin-right: -70px;
+    border-color: #fff !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    border-right: 1px solid #f2f2f3;
+    border-bottom: 1px solid #f2f2f3;
+    outline: 0;
+}
+
+input.search-field {
+    margin: 0px 0 20px 0;
+    font-size: 23px;
+    width: 320px;
+    height: 67px;
+    text-align: center;
+    border: 1px solid #bcabc2;
+    border-radius: 10px;
+}
