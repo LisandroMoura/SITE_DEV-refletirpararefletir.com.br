@@ -23,7 +23,7 @@ class Artisan
     public function __construct(string $tipo = null)
     {
         $this->tipo = $tipo;
-        $this->pathTemplate = "/home/bibolfo/repositorio/refletir.projeto/2023/wp-content/themes/refletir2023";
+        $this->pathTemplate = "/home/ubuntu/repositorio/refletir.projeto/2023/wp-content/themes/refletir2023";
     }
 
     public function run(string $var = null)

@@ -46,7 +46,7 @@ if (!function_exists('ads_in_article')):
     {
         if (saiFora()) return '';
         if (getProducao()):
-            $return = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5900355242626023" data-ad-slot="3159839050"></ins><script>
+            $return = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="3159839050"></ins><script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script></div></div>';
         else:
@@ -64,7 +64,7 @@ function ads_in_article2($atts, $content = null)
     {
         if (saiFora()) return '';
         if (getProducao()):
-            $return = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5900355242626023" data-ad-slot="9136749841"></ins><script>
+            $return = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="9136749841"></ins><script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script></div></div>';
         else:
@@ -82,7 +82,7 @@ if (!function_exists('ads_in_article3')):
         if (saiFora()) return '';
 
         if (getProducao()):
-            $return = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5900355242626023" data-ad-slot="8271224880"></ins><script>
+            $return = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="8271224880"></ins><script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script></div></div>';
             return $return;
@@ -100,7 +100,7 @@ if (!function_exists('ads')):
         if (saiFora()) return '';
 
         if (getProducao()):
-            $return = '<div class="caixa mb-60 center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5900355242626023" data-ad-slot="4715446390"></ins><script>
+            $return = '<div class="caixa mb-60 center-margem anuncio-box"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="4715446390"></ins><script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script></div></div>';
         else:
@@ -118,7 +118,7 @@ if (!function_exists('anuncio_left')):
         if (saiFora()) return '';
 
         if (getProducao()):
-            $return = '<div class="anuncio-left"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5900355242626023" data-ad-slot="4715446390"></ins><script>
+            $return = '<div class="anuncio-left"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="4715446390"></ins><script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script></div></div>';
         else:
@@ -140,11 +140,11 @@ if (!function_exists('anuncio_barra')):
 
         if (getProducao()):
             if ($retorno['tipo'] != 'pc') {
-                $return = '<div class="anuncio-barra"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5900355242626023" data-ad-slot="4715446390"></ins><script>
+                $return = '<div class="anuncio-barra"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="4715446390"></ins><script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script></div></div>';
             } else {
-                $return = '<div class="anuncio-barra"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5900355242626023" data-ad-slot="9894195198"></ins><script>
+                $return = '<div class="anuncio-barra"><div class="w100 block"><script refer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="9894195198"></ins><script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script></div></div>';
             }

@@ -9,7 +9,7 @@ $id_do_teste=get_the_ID();
 $anuncio_teste 		   = get_post_meta( get_the_ID(), '_anuncio_teste', true );
 $anuncio_entre  	   = get_post_meta( get_the_ID(), '_anuncio_entre', true );
 $pergutas_com_anuncio  = array_map( 'trim', explode( ',', $anuncio_entre ) );
-$strDoAnuncio		   = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script async defer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;"data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5900355242626023" data-ad-slot="3159839050"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>';
+$strDoAnuncio		   = '<div class="caixa center-margem anuncio-box"><div class="w100 block"><script async defer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;"data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="3159839050"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>';
 /***************************************************/
 if(!getProducao()):
 $strDoAnuncio='

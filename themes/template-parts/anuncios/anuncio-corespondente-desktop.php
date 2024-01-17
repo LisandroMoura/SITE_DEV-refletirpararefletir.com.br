@@ -10,7 +10,7 @@
              @media(min-width: 800px) { .corresp { width: 728px; height: auto; } }
             </style>            
             <!-- corresp -->
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5900355242626023" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5900355242626023" data-ad-slot="2819263990"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-INSERT_HERE" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-INSERT_HERE" data-ad-slot="2819263990"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
     </div>
 <?php else: ?>  

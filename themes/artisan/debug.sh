@@ -12,4 +12,4 @@ echo "- Conecte o aparelho no computador (não esqueça de dar acesso no mobile)
 echo "- No chrome digite o endereço : chrome://inspect/#devices;"
 echo "- Tudo pronto, agora basta abrir o chrome do mobile para depurar"
 echo ""
-XDEBUG_MODE=debug php -S refletirpararefletir.antigo.io:5501 -t /home/bibolfo/repositorio/refletir.projeto/refletirWp5.5.3 
+XDEBUG_MODE=debug php -S refletirpararefletir.antigo.io:5501 -t /home/ubuntu/repositorio/refletir.projeto/refletirWp5.5.3 
