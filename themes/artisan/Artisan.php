@@ -2,7 +2,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Artisan.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Responsável por mescar ao PHP os arquivos compilads/gerados pelo artisan 
  * Doc: Echo Cores em PHP no cli bash: 
  *      - https://stackoverflow.com/questions/34034730/how-to-enable-color-for-php-cli 

@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: HtmlCompression.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Fazer a compressão do html do site
  * Doc: 
  * -------------------------------------------------------

@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: page.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Template responsável pelas seguintes singles do site:
  *           - page post_type
  *           - fixas e institucionais

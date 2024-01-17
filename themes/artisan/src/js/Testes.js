@@ -1,6 +1,6 @@
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Testes.js
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Js principal do site usado para o sistema de testes (quiz)
  * Doc:
  * -------------------------------------------------------

@@ -1,7 +1,7 @@
 <?php ob_start(); 
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: footer.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Arquivo de funções da template
  * Doc: 
  * -------------------------------------------------------

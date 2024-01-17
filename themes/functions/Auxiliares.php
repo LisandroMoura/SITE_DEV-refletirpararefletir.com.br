@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Auxiliares.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Funções auxiliares excclusivas da template
  * Doc: 
  * -------------------------------------------------------

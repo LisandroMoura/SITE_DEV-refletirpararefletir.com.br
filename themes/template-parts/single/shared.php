@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: shared.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Template responsável pelp texto refazer o teste
  * Doc: 
  * -------------------------------------------------------

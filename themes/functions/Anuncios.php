@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Anuncios.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Hooks de Anuncios da template
  * Doc: 
  * -------------------------------------------------------

@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Seguranca.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Função relacionadas a segurança do templade wordpress
  * Doc: 
  * -------------------------------------------------------

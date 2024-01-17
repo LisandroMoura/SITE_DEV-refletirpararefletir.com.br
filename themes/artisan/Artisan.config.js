@@ -1,6 +1,6 @@
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Artisan.config.js
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Arquivos para compilar
  * Doc:
  * -------------------------------------------------------

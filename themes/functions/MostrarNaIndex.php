@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: MostrarNaindex.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Função que cria o campo mostrar na index para custom pages como Textos e Frases, pois
  *           os mesmos não possuem o campo ignore_sticky_posts.
  *           PS: posts não precisa disso, pois existe a função "Sticky_posts" 

@@ -1,6 +1,6 @@
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Consent.js
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Js para atender o consentimendo do usuário em relação a mensagem de privacidade
  * Doc:
  * Obs:

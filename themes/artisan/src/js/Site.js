@@ -1,6 +1,6 @@
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Site.js
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Js principal do site usado em todo o site, reposnsável pelo lazyload,  pelo clique do menu e pela 
  * 			animação de abrir e fechar a barra de pesquisa
  * Doc:

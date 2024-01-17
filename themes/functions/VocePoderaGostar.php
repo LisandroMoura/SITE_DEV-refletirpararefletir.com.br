@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: VocePoderaGostar.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Função de relacionados - usado na single e nas pages
  * Doc: 
  * -------------------------------------------------------

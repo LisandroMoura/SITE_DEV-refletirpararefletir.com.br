@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Filters.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Filtros no wordpress aplicados especificamente para essa template
  * Doc: 
  * -------------------------------------------------------

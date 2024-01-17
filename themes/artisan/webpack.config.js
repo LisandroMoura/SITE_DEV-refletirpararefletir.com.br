@@ -1,6 +1,6 @@
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: webpack.config.js
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Configurações do webpack
  * Doc: https://webpack.js.org/plugins/mini-css-extract-plugin/#minimizing-for-production
  * 		https://webpack.js.org/loaders/sass-loader/#root

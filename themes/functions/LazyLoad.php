@@ -1,7 +1,7 @@
 <?php
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: LazyLoad.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Aplicar LazyLoad no corpo das publicações
  *           ps: verificar se o methodo wp_get_attachment_image_attributes está funcionando, acho que não
  * Doc: 

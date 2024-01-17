@@ -3,7 +3,7 @@
 // if(!getProducao()) require __DIR__ . '/vendor/autoload.php';
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: header.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: arquivo responsável pelo header da template
  * Doc:
  * -------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php /**--------------------------------------------------------------------------------------------------------------
  * Nome: pontuacaoHtml.php
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Template responsável pela pontuação dos testes (quanto o tipo de teste permite)
  * Doc: 
  * -------------------------------------------------------

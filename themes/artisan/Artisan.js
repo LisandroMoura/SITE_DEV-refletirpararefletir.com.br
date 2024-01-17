@@ -1,6 +1,6 @@
 /**--------------------------------------------------------------------------------------------------------------
  * Nome: Artisan.js
- * Autor: liZi by_pandora.io
+ * Autor: LisandroMoura by_pandora.io
  * Objetivo: Responsável por publicar (copiar nas pastas) os arquivos compilads/gerados pelo artisan 
  * Doc: Notifier
  * 		- https://www.npmjs.com/package/node-notifier
