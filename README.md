@@ -4,6 +4,7 @@
 ## ◉ Projeto:
 Wordpress site de entretenimento criado em 2012.
 Um dos maiores sites do seguimento de notícias positivas do Brasil. Site com mais de dois milhões de acessos mensais.
+Projeto todo otimizado para trabalhar com o Google Search Engine
 
 ## ◉ Tecnologias:
 - Wordpress
